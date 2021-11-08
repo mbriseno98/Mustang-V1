@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<!--
+    Author:  Marcel Briseno
+    Class:   Web & Distributed Programming 
+    Project: Mustang Version 1
+    Description: This application is intended to host and share Json files with contact information of class members
+-->
+    <head>
+        <meta charset="UTF-8">
+        <title>Mustang Version 1</title>
+        <link rel="stylesheet" href="mustangV1.css">
+        <script src="mustangV1.js"></script>
+    </head>
+    <body onload="initApplication()">  
+        <h1>Mustang Version 1</h1>         
+        <button onclick="loadIndex()">Load Index</button><br>
+        Index:<p id="indexID"></p>
+
+        <button onclick="loadContacts()">Load Contacts</button><br>
+        Contacts:<p id="contactsID"></p>
+
+        <button onclick="logContacts()">Log Contacts to Console</button><br>
+    </body>
+</html>
